@@ -10,7 +10,10 @@ public class Test1 {
         ListNode node=new ListNode(1,Node1);
         ListNode b=removeElements(node,1);
         System.out.println(b);
+
     }
+
+    /*删除链表中的元素*/
     public  static  ListNode removeElements(ListNode head, int val) {
         if(head==null){
             return head;
