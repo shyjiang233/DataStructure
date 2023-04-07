@@ -13,7 +13,7 @@ public class patition {
            return  result;
        }
        backTracking(s,0);
-
+     return  result;
    }
 
     private void backTracking(String s, int startIndex) {
